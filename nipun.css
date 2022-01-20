@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+/* body {
+  font-family: "Poppins", sans-serif;
+} */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-inline-start: 12%;
+}
+.logo img {
+  border-radius: 10px;
+  width: 250px;
+}
+.header {
+  background: radial-gradient(#fff, rgb(134, 209, 231));
+}
+.header.row {
+  margin-top: 70px;
+}
+.header.row2 {
+  margin-top: 70px;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 40%;
+  min-width: 270px;
+  font-family: "Times New Roman", Times, serif;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  font-family: cursive;
+  font-size: 1.5rem;
+
+  background: radial-gradient(#fff, rgb(134, 209, 231));
+  border-radius: 10px;
+
+  padding: 20px;
+
+  text-decoration: none;
+}
+/* nipu yadav */
+
+.categories {
+  margin: 100px 70px;
+}
+.categories c {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-style: oblique;
+  color: rgb(42, 139, 139);
+}
+.categories g {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.categories j {
+  font-size: 4rem;
+  color: #0b7685;
+  font-weight: bolder;
+  margin-inline-start: 30px;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-width: 200px;
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.col-3 img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+
+  margin: 4px 4px;
+}
+.col-3 a1 {
+  margin: 80px;
+}
+.col-3 a2 {
+  margin: 75px;
+}
+.col-3 a3 {
+  margin: 70px;
+}
+.col-3 a4 {
+  margin: 70px;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* hobbies */
+
+.category c {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-style: oblique;
+  color: rgb(42, 139, 139);
+  margin: 30px;
+}
+.category s {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.col-5 {
+  flex-basis: 30%;
+  min-width: 200px;
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.col-5 img {
+  height: 250px;
+  width: 200px;
+  border-radius: 20px;
+
+  margin: 4px 4px;
+}
+.col-5 a1 {
+  margin: 60px;
+}
+.col-5 a2 {
+  margin: 60px;
+}
+.col-5 a3 {
+  margin: 60px;
+}
+.col-5 a4 {
+  margin: 40px;
+}
+.col-5 a5 {
+  margin: 45px;
+}
+.col-5 a6 {
+  margin: 45px;
+}
+.col-5 a7 {
+  margin: 45px;
+}
+/* contacts */
+#contact img {
+  width: 220px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contact-box ul a {
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+}
+.h-primary-center {
+  font-size: 2rem;
+  padding: 15px;
+  font-family: cursive;
+  margin: 10px;
+}
+/* about */
+.about b {
+  font-size: 2rem;
+  font-family: cursive;
+}
+.about a {
+  font-size: 20px;
+  font-family: cursive;
+}
+/* footer */
+.center {
+  text-align: center;
+}
+footer {
+  background: black;
+  color: white;
+  width: 250px;
+  height: 40px;
+}
