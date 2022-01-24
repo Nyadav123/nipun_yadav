@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  text-align:center;
 }
 /* body {
   font-family: "Poppins", sans-serif;
@@ -38,12 +37,14 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+   text-align:center;
 }
 
 .col-2 {
   flex-basis: 40%;
   min-width: 270px;
   font-family: "Times New Roman", Times, serif;
+   text-align:center;
 }
 .col-2 img {
   max-width: 100%;
